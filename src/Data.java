@@ -1,4 +1,4 @@
-﻿public class Data {
+public class Data {
     private final double[] vectorValues;
 
     private final String label;

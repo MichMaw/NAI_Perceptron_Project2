@@ -1,11 +1,14 @@
-﻿import java.io.BufferedReader;
+import java.io.BufferedReader;
 import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         System.out.println("Hello world");
+        List<Data> trainingData = loadDataSet("iris.data");
+        Perceptron perceptron = new Perceptron(4,0.2);
+        perceptron.learnFromData(trainingData,100);
     }
 
 
