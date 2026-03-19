@@ -28,3 +28,16 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+# IntelliJ IDEA project files
+.idea/
+*.iml
+gen/
+
+# Default ignored files (the ones you already had)
+/shelf/
+/workspace.xml
+/queries/
+/dataSources/
+/dataSources.local.xml
+/httpRequests/
